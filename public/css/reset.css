@@ -1,0 +1,235 @@
+/**
+ * Bootstrap reset
+ */
+.row
+{
+    margin: 0;
+}
+
+/**
+ * Css reset
+ */
+a {
+    color: #20a828;
+}
+input[type="file"]
+{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+span.file-name
+{
+    display: none;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+.w-0
+{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+/**
+ * layouts
+ * width
+ */
+.w-200
+{
+    width: 100%;
+    max-width: 200px;
+}
+.w-300
+{
+    width: 100%;
+    max-width: 300px;
+}
+.w-400
+{
+    width: 100%;
+    max-width: 400px;
+}
+.w-500
+{
+ width: 100%;
+ max-width: 500px;
+}
+.w-600
+{
+    width: 100%;
+    max-width: 600px;
+}
+.w-700
+{
+    width: 100%;
+    max-width: 700px;
+}
+.w-800
+{
+ width: 100%;
+ max-width: 800px;
+}
+.w-900
+{
+    width: 100%;
+    max-width: 900px;
+}
+.w-1000
+{
+ width: 100%;
+ max-width: 1000px;
+}
+.w-1100
+{
+    width: 100%;
+    max-width: 1100px;
+}
+.w-1200
+{
+    width: 100%;
+    max-width: 1200px;
+}
+.w-1300
+{
+    width: 100%;
+    max-width: 1300px;
+}
+.w-1400
+{
+    width: 100%;
+    max-width: 1400px;
+}
+.w-1500
+{
+    width: 100%;
+    max-width: 1500px;
+}
+.w-1600
+{
+    width: 100%;
+    max-width: 1600px;
+}
+.w-1700
+{
+    width: 100%;
+    max-width: 1700px;
+}
+.w-1800
+{
+    width: 100%;
+    max-width: 1800px;
+}
+.w-1900
+{
+    width: 100%;
+    max-width: 1900px;
+}
+.w-2000
+{
+    width: 100%;
+    max-width: 2000px;
+}
+
+/**
+ * Spacing
+ */
+.m-50
+{
+ margin: 50px;
+}
+.mt-50
+{
+ margin-top: 50px;
+}
+.mb-50
+{
+ margin-bottom: 50px
+}
+.ml-50
+{
+ margin-left: 50px;
+}
+.mr-50
+{
+ margin-right: 50px;
+}
+.mx-50
+{
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.my-50
+{
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+.p-50
+{
+ padding: 50px;
+}
+.pt-50
+{
+ padding-top: 50px;
+}
+.pb-50
+{
+ padding-bottom: 50px;
+}
+.pr-50
+{
+ padding-right: 50px;
+}
+.pl-50
+{
+ padding-left: 50px;
+}
+.px-50
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.py-50
+{
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.px-100
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.py-100
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/**
+ * font-size
+ */
+.fs-1rem
+{
+    font-size: 1rem;
+}
+.fs-1-2rem
+{
+    font-size: 1.2rem;
+}
+.fs-1-5rem
+{
+    font-size: 1.5rem;
+}
+.fs-2rem
+{
+    font-size: 2rem;
+}
+.fs-3rem
+{
+    font-size: 3rem;
+}

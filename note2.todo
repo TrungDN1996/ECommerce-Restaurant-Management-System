@@ -1,0 +1,65 @@
+        __issue__:
+
+
+ I - issue 04_views :
+
+
+            - 04_site ( Trung )
+
+            - 05_user ( Nam )
+
+            - 06_admin ( tổng )
+
+            - 07_auth ( login - logout - register - reset password )
+
+1 - 04_views_admin ; ( bao gồm cả layouts và controller )
+
+  - 06_admin ( Deleted )
+
+  - 06_admin_02_category ( Liem )
+
+  - 06_admin_03_comment ( Nam )
+
+  - 06_admin_04_layouts ( Nam )
+
+  - 06_admin_05_media ( Nam )
+
+  - 06_admin_06_order ( Trung )
+
+  - 06_admin_08_post_index ( Liem )
+
+      type = ['post', 'product']
+      => select box
+      => ajax
+
+  - 06_admin_09_post_created_edit ( Nam )
+
+      => tinyMCA
+
+  - 06_admin_10_product ( Liem )
+
+  - 06_admin_11_service ( Liem )
+
+  - 06_admin_12_setting ( Nam )
+
+  - 06_admin_13_user ( Nam )
+
+
+II - issue 05_controller
+
+  - 05_user ( Nam ) ( deleted )
+
+  
+  - 05_user_01_category_show ( Trung )
+
+  - 05_user_02_post_show ( Trung )
+
+  - 05_user_03_order    ( Trung )
+
+  - 05_user_04_order_index  ( Nam )
+
+  - 05_user_05_comment ( Nam )
+
+  - 05_user_06_profile ( Nam ) Trang Quang Ly Thong tin của User
+
+  - 05_user_07_layouts

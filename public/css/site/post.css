@@ -1,0 +1,143 @@
+#content
+{
+    margin-top: -20px !important;
+}
+footer
+{
+    margin-top: 0 !important;
+}
+#post-title-background
+{
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+#post-title-background>div
+{
+    background-color: #1d1d1d;
+    height: 100%;
+    opacity: 0.45;
+}
+
+#post-title-wrap
+{
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex;
+    height: 100%;
+    color: #ffffff;
+    opacity: 1;
+}
+
+#post-title
+{
+    color: #fff;
+    opacity: 1;
+}
+
+#post-content
+{
+    padding: 30px;
+}
+
+#post-product-wrap
+{
+    padding: 30px;
+    background-color: #3c3232;
+    border-right: 1px solid #8b6359;
+}
+
+#post-product-img-wrap
+{
+    overflow: hidden;
+    margin-top: 85px;
+}
+
+#post-product-content
+{
+    color: #cdcaca;
+    padding-left: 30px !important;
+}
+
+#post-product-content strong, #post-product-content span
+{
+    font-size: 19px;
+}
+
+#post-product-content strong
+{
+    color: #9e8e4a;
+}
+#post-product-content span
+{
+    color: #b8fdff;
+}
+
+#post-product-content span.product-out-stock
+{
+    color: #ff0000;
+    box-shadow: 0 0 4px #edfbff;
+    padding: 5px;
+}
+
+#post-product-content span.product-in-stock
+{
+    color: #00e1ff;
+    box-shadow: 0 0 4px #edfbff;
+    padding: 5px
+}
+
+#post-product-content>div
+{
+    padding: 5px 0;
+}
+
+#post-product-content div.product-name-wrap
+{
+    color: #f8dcc5;
+    justify-content: center;
+    border-bottom: 1px solid #8b6359;
+    padding-bottom: 20px;
+    margin-bottom: 20px !important;
+}
+
+#post-product-content div.add-to-cart button
+{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.product-name
+{
+    text-align: center;
+}
+/**
+ * Sidebar
+ */
+#post-sidebar
+{
+    background-color: #3c3232;
+
+}
+#post-sidebar #post-product-sidebar-title-wrap
+{
+    color: #ffbf8d;
+    justify-content: center;
+    border-bottom: 1px solid #8b6359;
+}
+#post-sidebar a
+{
+    color: #e8c2a3;
+    font-size: 17px;
+    line-height: 28px;
+}
+#post-sidebar h2 a
+{
+    font-size: 25px;
+    color: bisque;
+}

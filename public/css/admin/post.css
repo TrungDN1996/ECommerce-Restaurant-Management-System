@@ -1,0 +1,82 @@
+#adminPostHeader
+{
+    padding-bottom: 20px;
+}
+#adminPostContentWrap
+{
+
+}
+#adminPostContent
+{
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+#adminPostSideBar
+{
+    padding: 20px 30px 20px 20px;
+}
+.post-sidebar-block
+{
+    margin: 40px 0px;
+}
+.block-header
+{
+    background-color: white;
+    border-bottom: 1px solid #49413b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.block-content
+{
+    background-color: white;
+    border-bottom: 1px solid #49413b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.block-footer
+{
+    background-color: #8b939e;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/**
+ * Add Media to content
+ *
+ * @type {[type]}
+ */
+ #addMediaContainer
+ {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    margin-left: 40px;
+    width: calc(100% - 80px);
+    height: calc(100vh - 60px);
+    padding: 20px 0 0 0;
+    background-color: #e0eaed;
+}
+#closeAddMediaContainer
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+}
+#collapseUploadForm
+{
+    display: none;
+}
+
+#collapseUploadForm
+{
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#addMediaFooter
+{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    padding-right: 30px;
+    background-color: white;
+}

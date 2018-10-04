@@ -1,0 +1,211 @@
+body
+{
+    background-color: aliceblue;
+}
+#topNav-container
+{
+    z-index: 3 !important;
+    position: relative;
+    width: 100%;
+    height: 33px;
+    background-color: #23282d;
+}
+#topNav
+{
+    position: fixed;
+    width: 100%;
+    background-color: #23282d;
+    height: 33px;
+}
+#topNav a
+{
+    color: #fff;
+}
+#topNav #topNavAuth
+{
+    background-color: #23282d;
+}
+#topNav #topNavAuth div
+{
+    background-color: inherit !important;
+}
+#content-container
+{
+    z-index: 1 !important;
+    position: relative;
+}
+#sideNav
+{
+    width: 200px;
+    position: fixed;
+    background-color: #23282d;
+    height: 100vh;
+    display: none;
+    z-index: 3;
+}
+#sideNav a
+{
+    color: #fff;
+}
+#sideNav li
+{
+    text-align: left;
+}
+#content
+{
+    background-color: aliceblue;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+@media (min-width: 992px)
+{
+    #sideNav
+    {
+        display: block;
+        z-index: 1;
+    }
+    #content
+    {
+        margin-left: 200px;
+        z-index: 3;
+    }
+}
+/**
+ * Route: admin.user.index
+ */
+    /* toggle switch */
+ .toggle-switch
+ {
+     position: relative;
+     display: inline-block;
+     cursor: pointer;
+     width: 60px;
+     height: 34px;
+     z-index: 5;
+     margin: 0;
+     transform: translateY(10px);
+ }
+ .switch-slider
+ {
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: .4s;
+     background-color: #ccc;
+     border-radius: 34px;
+     width: 60px;
+     height: 34px;
+ }
+ .switch-slider::before
+ {
+     position: absolute;
+     content: "";
+     width: 26px;
+     height: 26px;
+     left: 4px;
+     top: 4px;
+     transition: 0.4s;
+     border-radius: 50%;
+     background-color: #fff;
+ }
+ input.switch-checkbox:checked + .switch-slider
+ {
+     background-color: #37ad64;
+ }
+ input.switch-checkbox:focus + .switch-slider
+ {
+     box-shadow: 0 0 1px #2196F3;
+ }
+ input.switch-checkbox:checked + .switch-slider::before
+ {
+     transform: translateX(26px);
+ }
+/**
+ * Route: admin.user.show
+ */
+#user-avatar-wrap
+{
+    width: 100%;
+    max-width: 500px;
+}
+#show-info-user-table-wrap
+{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 50px;
+}
+/**
+ * Route::admin.media.show
+ */
+#adminMediaShowItem
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.closeAdminmediaShowItem
+{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+    z-index: 3;
+}
+#FileInfoTable tbody td
+{
+    /*max-width: 200px;*/
+    overflow: hidden;
+}
+/**
+ * admin Media Bulk Select
+ */
+.displayAdminMediaShowItem
+{
+    border: 4px solid transparent;
+    position: relative;
+}
+.adminMediaImageWrap
+{
+    border: 4px solid transparent;
+    position: relative;
+}
+.ImageWrapBorderColor
+{
+    border-color: #061527FF;
+}
+.adminMediaImageCheckBoxIcon
+{
+    position: absolute;
+    z-index: 3;
+    padding: 5px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    color: #02102BFF;
+}
+
+/**
+ * categories option
+ */
+.level-0
+{
+    font-weight: bold;
+    color: #3d1c0e;
+}
+optgroup {
+    font-weight: bold;
+    /* color: #0ceb7b; */
+}
+/**
+ * pagination
+ */
+.paginate-container ul
+{
+    padding: 0;
+    justify-content: center;
+}
+.paginate-ajax ul
+{
+    padding: 0;
+    justify-content: center;
+}

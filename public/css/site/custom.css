@@ -1,0 +1,49 @@
+#page-heading
+{
+    margin-top: -30px;
+}
+#main-header
+{
+    background-color: #2d2626;
+
+}
+#main-header a
+{
+    color: #d1cfcf;
+}
+#top-header a
+{
+    color: #fff;
+}
+.logo
+{
+    padding: 0;
+    padding-top: 10px;
+}
+
+/**
+ * Footer
+ */
+footer
+{
+    background-color: #4b3f3f;
+}
+
+footer div.social-bottom span
+{
+    color: #dbd5d5;
+}
+
+footer .footer-title
+{
+    color: #211e1c;
+    font-size: 19px;
+}
+footer div.info p, footer div.info li
+{
+    color: #f4caae !important;
+}
+footer div.shop-list li a
+{
+    color: #f4caae;
+}
